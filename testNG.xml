@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FREECRMAUTOMATION">
+
+<listeners>
+<listener class-name="com.crm.qa.ExtentReport.ExportReportListener"/>
+</listeners>
+	<test name="testngTest">
+		<classes>
+			<class name="com.crm.qa.testcases.HomePageTestCases" />
+			<class name="com.crm.qa.testcases.LoginPageTestCase"/>
+		</classes>
+	</test>
+</suite>

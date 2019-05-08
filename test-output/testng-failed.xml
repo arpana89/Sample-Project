@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREECRMAUTOMATION]">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtentReport.ExportReportListener"/>
+  </listeners>
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="newConatctpage"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTestCases -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [FREECRMAUTOMATION] -->
